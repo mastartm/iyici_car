@@ -1,16 +1,69 @@
-# React + Vite
+# 🚗 İyici Car — Vehicle Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack vehicle inventory management web application built with React and Supabase.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [iyici-car.netlify.app](https://iyici-car.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Authentication** — Email verification, role-based access (admin / user)
+- **Admin Panel** — Create, delete, and manage user roles
+- **Inventory Management** — Vehicles, engines, and parts with full CRUD
+- **Photo Gallery** — Lightbox viewer with keyboard navigation
+- **Price Management** — Support for 3 currencies
+- **Search & Filter** — Category filtering, keyword search, pagination
+- **Responsive Design** — Works on all screen sizes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React + Vite |
+| Styling | Tailwind CSS |
+| Backend | Supabase (PostgreSQL + Auth) |
+| Storage | Supabase Storage |
+| Hosting | Netlify |
+| Icons | Lucide React |
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/Sekobaby/iyici-car.git
+cd iyici-car
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Add your Supabase URL and anon key
+
+# Start dev server
+npm run dev
+```
+
+---
+
+## Environment Variables
+
+```
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+---
+
+## Deployment
+
+Auto-deploys to Netlify on every push to `main`.
+
+---
+
+*Built with React + Supabase*
