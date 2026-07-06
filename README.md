@@ -4,6 +4,8 @@ A full-stack vehicle inventory management web application built with React and S
 
 🔗 **Live Demo:** [iyici-car.netlify.app](https://iyici-car.netlify.app)
 
+![İyici Car - Inventory](screenshots/envanter.png)
+
 ---
 
 ## Features
@@ -15,6 +17,18 @@ A full-stack vehicle inventory management web application built with React and S
 - **Price Management** — Support for 3 currencies
 - **Search & Filter** — Category filtering, keyword search, pagination
 - **Responsive Design** — Works on all screen sizes
+
+---
+
+## Screenshots
+
+| Stock Management | Photo Gallery |
+|---|---|
+| ![Stock](screenshots/stok.png) | ![Gallery](screenshots/galeri.png) |
+
+| Request Management |
+|---|
+| ![Requests](screenshots/talep.png) |
 
 ---
 
@@ -35,8 +49,8 @@ A full-stack vehicle inventory management web application built with React and S
 
 ```bash
 # Clone the repo
-git clone https://github.com/Sekobaby/iyici-car.git
-cd iyici-car
+git clone https://github.com/mastartm/iyici_car.git
+cd iyici_car
 
 # Install dependencies
 npm install
